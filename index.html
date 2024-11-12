@@ -1,0 +1,113 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerBoost Energy - La tua energia naturale</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/api/placeholder/1920/1080') center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff4d4d;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #ff3333;
+        }
+
+        .features {
+            padding: 80px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .value-prop {
+            padding: 80px 20px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>PowerBoost Energy</h1>
+            <p>Energia naturale per superare ogni sfida</p>
+            <a href="register.html" class="cta-button">Entra nella community</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">I nostri vantaggi</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>100% Naturale</h3>
+                <p>Ingredienti selezionati e di origine naturale per un'energia pulita e sostenibile.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Zero Crash</h3>
+                <p>Formula bilanciata che evita i tipici cali di energia dopo l'assunzione.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Vitamine & Minerali</h3>
+                <p>Arricchito con complesso vitaminico e minerali essenziali per il tuo benessere.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="value-prop">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h2 class="section-title">Perché scegliere PowerBoost</h2>
+            <p>PowerBoost non è solo un energy drink, è il tuo compagno quotidiano per raggiungere i tuoi obiettivi. Con la nostra formula innovativa, ottieni l'energia di cui hai bisogno senza compromettere la tua salute.</p>
+        </div>
+    </section>
+</body>
+</html>
